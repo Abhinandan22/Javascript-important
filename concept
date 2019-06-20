@@ -1,1 +1,10 @@
 var is function scoped and let is block scoped.
+
+<html>
+<body>
+<p id = "ResIP"></p>
+<script type = text/javascript>
+document.getElementById('ResIp').innerHTML ='Hello World'
+</script>
+</body>
+</html>
