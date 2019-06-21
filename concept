@@ -31,4 +31,11 @@ var languages = { first : "C", second : "Java",
     } 
   
 
+To convert a number to a string with base 2 , we will have to call the toString() method by passing 2 as a parameter. 
 
+var num=213; 
+    document.write("Output : " + num.toString(2)); 
+    
+    For other bases, provide the value as 8,16 in the toString().
+    
+    
