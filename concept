@@ -38,4 +38,19 @@ var num=213;
     
     For other bases, provide the value as 8,16 in the toString().
     
+
+OOPS Concept :- 
+
+
+ function UserDetails(firstname,secondname){
+this.firstname=firstname;
+this.secondname=secondname;
+}
+
+var user3=new UserDetails("Abhinandan","Parhi");  //Declare new object everytime in the console as it will throw error
+var user4=new UserDetails("Allan","Turing");
+
+console.log(user3.firstname);
+console.log(`${user4.firstname} ${user4.secondname}`);
+    
     
