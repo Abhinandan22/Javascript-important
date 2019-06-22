@@ -52,5 +52,44 @@ var user4=new UserDetails("Allan","Turing");
 
 console.log(user3.firstname);
 console.log(`${user4.firstname} ${user4.secondname}`);
+   
+   
+   
+   
+   
+   
+   Ways of creating object
+   
+   1. Using the Object() Constructor
+
+filter_none
+brightness_4
+var obj = new Object(); 
+obj.firstName = "Geeks"; 
+obj.middleName = "for"; 
+obj.lastName = "Geeks"; 
+obj.isTeaching = "Javascipt"; 
+obj.greet = function() { console.log("Hi"); } 
+2.Using Object literal
+
+filter_none
+brightness_4
+var obj = {} //obj is an empty object 
+obj.firstName = "Geeks"; 
+obj.middleName = "for"; 
+obj.lastName = "Geeks"; 
+obj.isTeaching = "Javascipt"; 
+obj.greet = function() { console.log("Hi"); } 
+3. Directly specifying the values
+
+filter_none
+brightness_4
+var obj = {  
+    obj.firstName = "Geeks"; 
+    obj.middleName = "for"; 
+    obj.lastName = "Geeks"; 
+    obj.isTeaching = "Javascipt"; 
+    
+    
     
     
