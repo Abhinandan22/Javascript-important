@@ -108,6 +108,10 @@ arr3 = [9,3,2];
 console.log(arr1.concat(arr2,arr3));
 
 
+var d = Date(Date.now());
+console.log(d.toString());
+
+
 
     
     
