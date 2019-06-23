@@ -100,7 +100,15 @@ console.log(arr.join());
 var arr = [5 , 7, 8, 9];
 console.log(arr.join(''));
 5789
-    
+
+
+var arr1 = [6,7,8],
+arr2 = [8,0,9],
+arr3 = [9,3,2];
+console.log(arr1.concat(arr2,arr3));
+
+
+
     
     
     
