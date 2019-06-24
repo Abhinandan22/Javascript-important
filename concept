@@ -112,6 +112,16 @@ var d = Date(Date.now());
 console.log(d.toString());
 
 
+var films = ["Jurassic Park", 1993, "Titanic", 1997, "Toy Story", 1995];
+for(x in films)
+console.log(films[x]);
+
+
+var films = ["Jurassic Park", 1993, "Titanic", 1997, "Toy Story", 1995];
+console.log(films[3]);
+
+
+
 
     
     
