@@ -1,0 +1,4 @@
+var names=["eRIC","tHOMAS","jESS","Howard"];
+gs.info(names.join(', '));
+var subnames = names.splice(0,3);
+gs.info(subnames.join(', '));
