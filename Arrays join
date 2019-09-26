@@ -1,0 +1,6 @@
+r list = ['Chuck','Tomasi','Abhi','Parhi'];
+gs.info(list.join(', '));
+
+list.push('Dave');
+list.push('Andrew');
+gs.info(list.join(', '));
