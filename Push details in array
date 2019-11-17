@@ -1,0 +1,10 @@
+var list = [];
+
+var incobj = new GlideRecord('incident');
+incobj.adQuery('priority','1');
+incobj.query();
+
+while(incobj.next())
+list.push(incobj.getValue('sys_id'));
+
+gs.info("list=\n" + list.join("\n"));
