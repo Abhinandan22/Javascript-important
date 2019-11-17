@@ -1,0 +1,11 @@
+var arr = [];
+
+var gr = new GlideRecord("incident");
+gr.addQuery('short_description','test');
+gr.query();
+
+while(gr.next()){
+
+arr.push(gr.getValue('sys_id'));
+}
+gs.info(('\n')+arr.join('\n'));
