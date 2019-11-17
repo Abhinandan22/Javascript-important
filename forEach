@@ -1,0 +1,7 @@
+var arr = [1,2,3];
+
+arr.forEach(function(val){
+
+gs.log(val)
+
+});
