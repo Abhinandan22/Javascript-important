@@ -1,0 +1,9 @@
+var list = ['Chuck','Kreg','Stacey'];
+list.push("Dave");
+list.push("Batista");
+list.pop();
+list.shift();
+list.splice(2,0,"Cary","Henry");
+list.slice(1,3);
+gs.info(list);
+gs.info('join list=\n' +list.join('\n'));
