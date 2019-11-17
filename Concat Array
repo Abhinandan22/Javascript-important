@@ -1,0 +1,26 @@
+var du = new ArrayUtil();
+
+var arr = [
+
+"Ram",
+"Shyam",
+"Lakshman",
+"Shyam",
+"Ram",
+"Lakshman"
+
+];
+
+var arr1 = [
+
+"Token",
+];
+
+var value = du.concat(arr,arr1);
+gs.info(('\n')+value.join('\n'));
+
+
+
+
+
+
