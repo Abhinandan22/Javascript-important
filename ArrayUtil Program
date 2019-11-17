@@ -1,0 +1,17 @@
+var du = new ArrayUtil();
+
+var arr = [
+
+"Ram",
+"Shyam",
+"Lakshman",
+"Shyam",
+"Ram",
+"Lakshman"
+
+];
+
+var value = du.unique(arr);
+gs.info(('\n')+value.join('\n'));
+
+O/p:- Only 3 unique values
