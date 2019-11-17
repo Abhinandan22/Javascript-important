@@ -1,0 +1,2 @@
+var list = ['Chuck','Kreg','Stacey'];
+gs.info('join list=' +list.join(', '));
