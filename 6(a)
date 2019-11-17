@@ -1,0 +1,18 @@
+function getTableName(tableName){
+
+var array = [];
+
+var ga = new GlideRecord(tableName);
+ga.query();
+
+while(ga.next()){
+
+array.push(ga.getDisplayValue());
+
+}
+
+return array;
+}
+
+
+gs.info(getTableName('incident').join('\n'));
