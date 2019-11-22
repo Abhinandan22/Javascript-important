@@ -30,3 +30,5 @@ O/p :- [object Object],[object Object],[object Object]
 
 
 Use JSON.stringify(arr);
+
+gs.info(JSON.stringify(arr,null,4));
