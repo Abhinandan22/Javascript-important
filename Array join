@@ -4,3 +4,6 @@ gs.info('join list=' +list.join(', '));
 
 var list = ['Chuck','Kreg','Stacey'];
 gs.info('join list=\n' +list.join('\n'));
+
+
+The join() method returns the array as a string.
