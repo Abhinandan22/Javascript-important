@@ -1,0 +1,10 @@
+var vehicle = {
+
+"year" : 2018,
+"name" : "Toyota",
+"dept" : "Packaging"
+
+};
+
+for(var key in vehicle)
+gs.info('key= ' + key + ' value= ' +vehicle[key]);
