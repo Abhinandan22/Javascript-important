@@ -1,0 +1,32 @@
+var arr = [ 
+
+{
+
+"name":"Abhi",
+"title":"Party"
+
+},
+
+{
+
+"name":"Kunu",
+"title":"Part"
+
+},
+
+{
+"name":"Abhinandan",
+"title":"Parhi"
+}
+
+];
+
+
+gs.info(arr);
+
+
+
+O/p :- [object Object],[object Object],[object Object]
+
+
+Use JSON.stringify(arr);
