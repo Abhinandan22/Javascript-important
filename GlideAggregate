@@ -1,0 +1,13 @@
+var ga = new GlideAggregate('incident');
+ga.addQuery('short_description','CONTAINS','test');
+ga.addAggregate('COUNT');
+ga.query();
+
+if(ga.next()){
+
+var inc_count = 0;
+
+var resultcount = ga.getAggregate('COUNT');
+gs.info(resultcount);
+
+}
