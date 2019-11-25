@@ -1,0 +1,19 @@
+var gr = new GlideRecord("problem");
+gr.get("assigned_to.name",'Problem Manager');
+gr.query();
+
+while(gr.next()){
+
+gs.info(gr.number);
+}
+
+
+
+var gr = new GlideRecord("problem");
+gr.get('d7296d02c0a801670085e737da016e70');
+gr.query();
+
+while(gr.next()){
+
+gs.info(gr.number);
+}
