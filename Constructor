@@ -1,0 +1,20 @@
+var user = {
+
+name : 'Abhi',
+age : 20,
+title : 'Parhi'
+
+};
+
+var Person = function(name,age,title){
+
+this.name = user.name,
+this.age = age,
+this.title = title
+
+
+
+}
+
+var user1 = new  Person('John',90,'test');
+gs.print(user1.name);
