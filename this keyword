@@ -1,0 +1,11 @@
+var user = {
+
+yob : 1994,
+
+isCalc : function(){
+
+gs.print(2000-this.yob);
+}
+};
+
+user.isCalc();
