@@ -9,3 +9,19 @@ gs.print(2000-this.yob);
 };
 
 user.isCalc();
+
+
+
+
+
+var user = {
+
+yob : 1994,
+
+isCalc : function(today){
+
+gs.print(this.today-this.yob);
+}
+};
+
+user.isCalc(2000);  ////op:-NaN
