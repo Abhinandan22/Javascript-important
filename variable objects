@@ -1,0 +1,6 @@
+Variable Object
+The Variable Object, also known as the activation object, contains all of the variables, functions and other declarations that are defined in a particular branch of the execution context. When a function is called, the interpreter scans it for all resources including function arguments, variables, and other declarations. Everything, when packed into a single object, becomes the the Variable Object.
+
+'variableObject': {
+    // contains function arguments, inner variable and function declarations
+}
