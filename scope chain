@@ -1,0 +1,9 @@
+function sayMyName() {
+  var a = 'a';
+  return function sayyy(){
+  var b = 'b';  
+  gs.print(a+b);
+  }
+}
+
+sayMyName()();
