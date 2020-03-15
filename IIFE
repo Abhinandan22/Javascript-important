@@ -1,0 +1,14 @@
+(function (){
+
+newVVal();
+})();
+
+function newVVal(){
+
+gs.print(5+9);
+
+}
+
+newVVal();
+
+
