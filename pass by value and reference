@@ -1,0 +1,23 @@
+Pass by value :-
+
+var a = 10;
+var b =a;
+
+b++;
+
+gs.print(a);
+gs.print(b);
+
+Pass by Reference :-
+
+var obj1 = {name:"Abhi",title:"Parhi",address:"Bengaluru"};
+
+var obj2 = obj1;
+
+obj2.address = "Bhadrak";
+
+
+//The changes also occur for the address parameter of the 1st object in this case...
+console.log(obj1);
+console.log(obj2);
+
