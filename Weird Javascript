@@ -1,0 +1,16 @@
+function weird(){
+height = 50;
+console.log(height);
+
+} 
+
+//global leakage
+
+hence introduced strict
+'use strict'
+
+function weird(){
+height = 50;
+return height
+}
+weird()
