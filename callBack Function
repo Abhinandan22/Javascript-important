@@ -1,0 +1,8 @@
+var mulByTwo = function (two){
+return function(number){
+return two*number;
+}
+}
+
+var num = mulByTwo(2);
+gs.print(num(80));
