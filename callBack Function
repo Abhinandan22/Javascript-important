@@ -6,3 +6,9 @@ return two*number;
 
 var num = mulByTwo(2);
 gs.print(num(80));
+
+
+
+var mulByTwo =  (two) => (number) => two*number
+
+mulByTwo(2)(70);
