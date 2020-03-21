@@ -1,0 +1,8 @@
+function templ(){
+var str = "Abhinandan";
+return "I want to meet " + `${str}`;
+}
+
+templ();
+
+O/p:-I want to meet Abhinandan
