@@ -30,3 +30,6 @@ console.log(lizard.nameprint());
 console.log(lizard.fightAbility());
 
 console.log(dragon.isPrototypeOf(lizard));
+
+for(var prop in lizard)
+console.log(prop);
