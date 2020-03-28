@@ -1,0 +1,13 @@
+var myObj = {
+
+  name : "Abhinandan",
+  age : 25,
+
+  work(){
+    console.log(`${this.name} is a SNOW Developer`);
+  }
+}
+
+var myObj2 = Object.create(myObj);
+console.log(myObj2);
+console.log(myObj2.name);
