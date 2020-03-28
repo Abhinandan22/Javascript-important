@@ -1,0 +1,29 @@
+var dragon = {
+
+  name : "KIKI",
+  age : 89,
+  nameprint(){
+    return `The dragon name is ${this.name}`;
+  },
+
+  fightAbility(){
+    return `The fight ability of ${this.name} with age ${this.age} is good`;
+  }
+}
+
+var firstDragon = dragon.nameprint();
+console.log(firstDragon);
+
+var lizard = {
+
+  name : "Madrid",
+  age : 67,
+
+}
+
+var value = dragon.nameprint.bind(lizard);
+console.log (value());
+
+lizard.__proto__ = dragon;
+lizard.nameprint();
+lizard.fightAbility();
