@@ -1,0 +1,21 @@
+var dragon = {
+
+  name : "KIKI",
+  age : 89,
+  nameprint(){
+    return `The dragon name is ${this.name}`;
+  }
+}
+
+var firstDragon = dragon.nameprint();
+console.log(firstDragon);
+
+var lizard = {
+
+  name : "Madrid",
+  age : 67,
+
+}
+
+var value = dragon.nameprint.bind(lizard);
+console.log (value());
