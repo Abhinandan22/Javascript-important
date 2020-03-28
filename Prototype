@@ -33,3 +33,8 @@ console.log(dragon.isPrototypeOf(lizard));
 
 for(var prop in lizard)
 console.log(prop);
+
+console.log("--------------------------------------");
+for(var prop in lizard){
+if(lizard.hasOwnProperty(prop))
+console.log(prop);
