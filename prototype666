@@ -1,0 +1,10 @@
+Array.prototype.map = function(){
+
+  var arr = [];
+for(var i = 0 ; i < this.length ; i++){
+  arr.push(this[i]+'map');
+}
+return arr;
+}
+
+console.log([1,2,3].map());
