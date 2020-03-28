@@ -25,5 +25,8 @@ var value = dragon.nameprint.bind(lizard);
 console.log (value());
 
 lizard.__proto__ = dragon;
-lizard.nameprint();
-lizard.fightAbility();
+console.log(lizard.nameprint());
+
+console.log(lizard.fightAbility());
+
+console.log(dragon.isPrototypeOf(lizard));
