@@ -1,0 +1,16 @@
+function Elf(name,age){
+  this.name = name
+  this.age = age
+}
+
+Elf.prototype.attack=function(){
+console.log(`${this.name} with age ${this.age} is the best attacker`)
+
+}
+
+var peter = new Elf("Peter",67);
+peter.attack();
+var sam = new Elf("GETER",53);
+sam.attack();
+console.log(sam.name);
+console.log(peter.name);
