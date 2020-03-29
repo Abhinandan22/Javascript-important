@@ -1,0 +1,14 @@
+class Elf{
+  constructor(name,age){
+    this.name = name;
+    this.age = age;
+  }
+
+  attack(){
+    return "attack";
+  }
+}
+
+var peter = new Elf('Peter',56);
+console.log(peter instanceof Elf);
+console.log(peter.attack());
