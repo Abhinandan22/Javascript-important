@@ -1,0 +1,38 @@
+class Elf{
+  constructor(name,age){
+    this.name = name;
+    this.age = age;
+  }
+
+  attack(){
+    return `${this.name} and ${this.age} attack of the hero`;
+  }
+}
+
+class Elf1 extends Elf{
+  constructor(name,age,buildFort){
+      super(name,age);
+      
+  }
+
+buildFort(){
+  return `${this.name} with age ${this.age} has ${this.attack}`;
+}
+
+}
+
+var val1 = new Elf("Abhi",25);
+console.log(val1.attack());
+
+console.log(Elf1 instanceof Elf)
+
+var val2 = new Elf1("Kunu",69);
+console.log(val2.buildFort());
+  
+
+
+
+//var peter = new Elf('Peter',56);
+//console.log(peter.attack());
+//var pete = new Elf('Shwetabh',89);
+//console.log(pete.attack());
