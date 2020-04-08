@@ -17,3 +17,22 @@ a();
 
 o/p : -  undefined 
          1
+
+
+Here function b is independent of a.hence it refers to outer execution context for its value. So 1.
+
+
+
+function a(){
+function b(){
+console.log(myVar);
+}
+
+var myVar = 2;
+b();
+}
+
+var myVar = 1;
+a();
+
+o/p :- 2
