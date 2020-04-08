@@ -1,0 +1,19 @@
+function b(){
+
+gs.print(myVar);
+
+}
+
+function a(){
+
+var myVar;
+gs.print(myVar);
+b();
+
+}
+
+var myVar = 1 ;
+a();  
+
+o/p : -  undefined 
+         1
