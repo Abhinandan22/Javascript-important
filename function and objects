@@ -1,0 +1,26 @@
+var user = {
+
+"name":"Abhinandan",
+"firstName":"Part",
+
+address:{
+
+"name":"StreetSilent",
+"PostalAddressName":"SS"
+
+}
+}
+
+gs.print(user.address.name);
+gs.print(user.firstName);
+
+function printAddress(person){
+
+gs.print("My name is " + person.firstName);
+
+}
+
+printAddress(user);
+
+printAddress({"firstName":"Kunu",
+"secondName":"Parhi"});
