@@ -1,0 +1,17 @@
+gs.print(a());
+
+function a(){
+gs.print("10");
+}
+
+function a(){
+gs.print("20");
+}
+
+
+gs.print(a());
+
+*** Script: 20
+*** Script: undefined
+*** Script: 20
+*** Script: undefined
