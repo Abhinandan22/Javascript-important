@@ -1,0 +1,67 @@
+//Issue is that the output is returning the return statement twice
+
+var vehicle = Class.create();
+vehicle.prototype = {
+    initialize: function(year,model,number) {
+		this.year = year;
+		this.model = model;
+		this.number = number;
+    },
+	
+	information:function(){
+		gs.info("Vehicle Info");
+	},
+	
+	getDetails : function(){
+		gs.info("Vehicle Details " + this.year + " " + this.model + " " + this.number);
+	},
+	
+	otherDetails : function(){
+		gs.info("----------Other Details -------------------" + this.model + " for vehicle");
+		gs.info("----------End of vehicle---------------------------");
+	},
+
+    type: 'vehicle'
+};
+
+
+var car = Class.create();
+car.prototype = Object.extendsObject(vehicle, {
+	
+	findDealer : function(){
+		gs.info("The dealer of car is " + this.model);
+	},
+	
+	findCardetails :function(){
+		gs.info("details of car " + this.year);
+	},
+	
+		type:'car'							 
+});
+
+var v1 = new vehicle('2202','john deere','car');
+v1.information();
+v1.getDetails();
+v1.otherDetails();
+
+
+
+var v2 = new car('2234','Apple','Bullock');
+v2.findDealer();
+v2.findCardetails();
+
+
+*** Script: Vehicle Info
+*** Script: Vehicle Details 2202 john deere car
+*** Script: ----------Other Details -------------------john deere for vehicle
+*** Script: ----------End of vehicle---------------------------
+*** Script: The dealer of car is Apple
+*** Script: details of car 2234
+*** Script: Vehicle Info
+*** Script: Vehicle Details 2202 john deere car
+*** Script: ----------Other Details -------------------john deere for vehicle
+*** Script: ----------End of vehicle---------------------------
+*** Script: The dealer of car is Apple
+*** Script: details of car 2234
+
+
