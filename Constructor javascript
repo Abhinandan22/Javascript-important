@@ -1,0 +1,39 @@
+var UserObj = function(name,yearofBirth,job){
+
+this.name = name;
+this.yearofBirth = yearofBirth;
+this.job = job;
+
+}
+
+UserObj.prototype.lastName = "Smith";
+
+UserObj.prototype.userAge = function(){
+
+gs.print("The age of user is " + (2020 - this.yearofBirth));
+
+}
+
+var john = new UserObj("John",1990,'Developer');
+var jane = new UserObj("Jane",1940,'Tester');
+var jumbo = new UserObj("Jumbo",1979,'Analyst');
+
+gs.print(john.userAge());
+gs.print(jane.userAge());
+gs.print(jumbo.userAge());
+
+gs.print(john.lastName);
+gs.print(jane.lastName);
+gs.print(jumbo.lastName);
+
+
+*** Script: The age of user is 30
+*** Script: undefined
+*** Script: The age of user is 80
+*** Script: undefined
+*** Script: The age of user is 41
+*** Script: undefined
+*** Script: Smith
+*** Script: Smith
+*** Script: Smith
+
