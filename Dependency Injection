@@ -1,0 +1,34 @@
+var userObj = function(firstName,lastName){
+
+this.firstName = firstName;
+this.lastName = lastName;
+
+}
+
+function userO(){
+
+var ga = new userObj("Abhi","Parhi");
+console.log(ga);
+}
+
+userO();
+
+O/P:- userObj {firstName: "Abhi", lastName: "Parhi"}
+
+
+------------------------------------Dependency injection:-----------------------------------------------
+
+Nothing fancy we are just declaring the definition of the arguments outside the function.
+
+var userObj = function(firstName,lastName){
+
+this.firstName = firstName;
+this.lastName = lastName;
+
+}
+function userO(person){
+console.log(person);
+}
+
+var person = new userObj("Abhi","Parhi");
+userO(person);
