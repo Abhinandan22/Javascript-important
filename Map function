@@ -14,3 +14,20 @@ gs.print(valueNow);
 
 
 *** Script: Abhi,Ab,AbhiP
+
+
+var arrObj = [
+
+{name:"Apple",strength:450,wing:"Right"},
+{name:"Micro",strength:350,wing:"Middle"},
+{name:"Google",strength:250,wing:"Left"}
+
+];
+
+var nameKey = arrObj.map(function(nameVal){
+return nameVal.name;
+});
+
+gs.print(nameKey);
+
+*** Script: Apple,Micro,Google
