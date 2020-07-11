@@ -1,0 +1,16 @@
+var arr = [ 
+
+{name:"Abhi",location:"Bhadrak",state:"Odisha"},
+{name:"Ab",location:"Bhc",state:"Odisha"},
+{name:"AbhiP",location:"Bhadrak1",state:"Odisha"}
+
+];
+
+var valueNow = arr.map(function(val){
+return val.name;
+});
+
+gs.print(valueNow);
+
+
+*** Script: Abhi,Ab,AbhiP
