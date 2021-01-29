@@ -1,0 +1,14 @@
+var user = {
+
+FirstName : "Abhinandan"
+
+};
+
+//THE BELOW FUNCTION IS NOT A PROPERTY OF THE OBJECT. 
+
+function concatName(name){
+gs.print(this.FirstName+ " " + name);
+
+}
+
+concatName.call(user,"Parhi");
