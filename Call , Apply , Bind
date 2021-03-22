@@ -1,3 +1,26 @@
+Base Script : - 
+
+var obj = {
+name : "Abhinandan",
+place : "Bhadrak",
+
+userdetails : function(){
+gs.print("user name = " + this.name + "\n" + " user address = " + this.place);
+}
+
+};
+
+obj.userdetails();
+
+
+
+
+
+
+
+
+
+
 var user = {
 
 FirstName : "Abhinandan"
