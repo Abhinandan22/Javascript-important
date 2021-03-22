@@ -5,7 +5,7 @@ name : "Abhinandan",
 place : "Bhadrak",
 
 userdetails : function(){
-gs.print("user name = " + this.name + "\n" + " user address = " + this.place);
+gs.print("user name = " + this.name + "\n" + " user address = " + this.place); //here userdetails function can access the object
 }
 
 };
