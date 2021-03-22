@@ -12,3 +12,17 @@ gs.print(this.FirstName+ " " + name);
 }
 
 concatName.call(user,"Parhi");
+
+
+
+var obj = {
+name : "Abhinandan"
+};
+
+//THE BELOW FUNCTION IS NOT A PROPERTY OF THE OBJECT.
+
+var con = function namecont(newVal){
+gs.print(this.name + " " + newVal);
+};
+
+con.call(obj,"Parhi");
