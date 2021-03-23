@@ -49,3 +49,20 @@ gs.print(this.name + " " + newVal);
 };
 
 con.call(obj,"Parhi");
+
+
+var obj = {
+
+num : 2
+
+};
+
+
+var funcVal = function (a,b,c){
+
+
+gs.print(a + b + c + " " + this.num);
+}
+
+var place = ["BHC","BLR","HYD"];
+funcVal.apply(obj,place);
