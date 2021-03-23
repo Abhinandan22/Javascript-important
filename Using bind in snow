@@ -1,0 +1,26 @@
+Before BR : -
+
+var value = new JSLearn().Learning();
+gs.log("SumValue " + value);
+current.description = value;
+
+SI : -
+
+Learning: function() {
+       
+        var mod = {
+            module: "inc"
+        };
+       gs.log("mod " + JSON.stringify(mod));
+		
+        var modRet = function(firstNum, secondNum, thirdNum) {
+            return this.module + firstNum + secondNum + thirdNum;
+        };
+       gs.log("Bind Function");
+        var calcMod = modRet.bind(mod);
+        return calcMod(5, 6, 7);
+    },
+  
+  o/p :- inc567
+ 
+  
