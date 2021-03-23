@@ -66,3 +66,22 @@ gs.print(a + b + c + " " + this.num);
 
 var place = ["BHC","BLR","HYD"];
 funcVal.apply(obj,place);
+
+
+bind : - 
+
+var obj = {
+
+num : 2 
+
+};
+
+var calcFun = function(numArr1,numArr2,numArr3){
+
+gs.log(this.num+numArr1+numArr2+numArr3);
+
+};
+
+var value = calcFun.bind(obj); //bind the function with the object
+
+value(5,6,7);
