@@ -8,3 +8,24 @@ Dog.prototype.isPrototypeOf(beagle);  // yields true
 
 // Fix the code below so that it evaluates to true
 Object.prototype.isPrototypeOf(Dog.prototype);
+
+
+
+
+
+
+
+function Animal(){}
+
+Animal.prototype = {
+
+eat:function(){
+
+gs.print("Go to eat");
+
+}
+
+};
+
+var duck = Object.create(Animal.prototype);
+duck.eat();
