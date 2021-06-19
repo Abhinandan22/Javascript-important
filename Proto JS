@@ -29,3 +29,6 @@ gs.print("Go to eat");
 
 var duck = Object.create(Animal.prototype);
 duck.eat();
+
+var duck1 = new Animal();
+duck1.eat();
