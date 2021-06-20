@@ -1,1 +1,11 @@
+Method - 1 
+
+var array = [20,40,50,57,78,98];
+
+console.log(array.reverse());
+
+
+Method - 2 
+
+
 
