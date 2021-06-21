@@ -21,3 +21,7 @@ newArr.forEach(function(value){
 console.log(value);
 });
 
+
+Method - 3 
+
+
