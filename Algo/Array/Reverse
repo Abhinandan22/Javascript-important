@@ -7,5 +7,17 @@ console.log(array.reverse());
 
 Method - 2 
 
+var arr = [1,2,34,5,56,6];
 
+var newArr = [];
+
+for(var i = arr.length - 1 ; i >= 0 ; i--){
+    newArr.push(arr[i]);
+}
+
+console.log(newArr);
+
+newArr.forEach(function(value){
+console.log(value);
+});
 
