@@ -1,0 +1,23 @@
+function RadVal(rad){
+
+this.radius = rad;
+
+this.draw = function(){
+gs.print('draw ' + this.radius);
+}
+
+}
+
+var callFun = new RadVal(1);
+
+gs.print(callFun.constructor);
+
+
+*** Script: 
+function RadVal(rad) {
+    this.radius = rad;
+    this.draw = function () {
+        gs.print("draw " + this.radius);
+    };
+}
+
