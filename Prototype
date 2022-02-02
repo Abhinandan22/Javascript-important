@@ -1,3 +1,25 @@
+
+//Prototype is used when we want to add new properties to an already defined object with its properties.
+
+function obj() {
+
+this.name = "Abhi";
+this.roll = 14;
+
+}
+
+obj.prototype.stand = "first";
+
+var ga = new obj();
+ga.age = 26;
+
+gs.print("first " + Object.keys(ga));
+
+
+var ga1 = new obj();
+gs.print("second " + Object.keys(ga1));
+
+
 var dragon = {
 
   name : "KIKI",
