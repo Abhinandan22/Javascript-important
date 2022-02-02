@@ -1,0 +1,15 @@
+var obj = {
+
+name:"Abhi",
+roll:23,
+job:"S/W Engineer"
+
+};
+
+
+var newObj = Object.create(obj);
+
+newObj.branch = "CSE";
+
+gs.print(newObj.name + " " + newObj.roll + " " + newObj.job + " " + newObj.branch);
+
