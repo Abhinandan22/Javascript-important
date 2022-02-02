@@ -18,3 +18,26 @@ this.title = title
 
 var user1 = new  Person('John',90,'test');
 gs.print(user1.name);
+
+
+
+
+
+function GetBook(){
+
+this.name = "Leo";
+this.author = "Jules";
+
+this.getDetails = function(){
+
+return ("Details are " + this.name + " " + this.author);
+
+};
+
+}
+
+var book = new GetBook();
+
+book.name = "Deo";
+
+gs.print(book.getDetails());
