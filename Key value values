@@ -8,3 +8,21 @@ var vehicle = {
 
 for(var key in vehicle)
 gs.info('key= ' + key + ' value= ' +vehicle[key]);
+
+
+function obj() {
+
+this.name = "Abhi";
+this.roll = 123;
+this.branch = "cse";
+
+this.getDet = function() {
+
+gs.print(this.name + " " + this.roll + " " + this.branch);
+}
+
+}
+
+
+var key = new obj();
+gs.print(Object.keys(key));
