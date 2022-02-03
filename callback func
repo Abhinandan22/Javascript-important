@@ -1,0 +1,18 @@
+function one(call_two){
+
+call_two();
+
+gs.print("ValueOne");
+
+}
+
+
+function two(){
+
+gs.print("ValueTwo");
+
+}
+
+
+one(two);
+
