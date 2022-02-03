@@ -1,3 +1,24 @@
+HTML : - 
+
+<!DOCTYPE html>
+<html>
+    <title>Learning Javascript Thoroughly</title>
+    <head>DOM JS Learning</head><br/>
+    <body>
+
+    <div class="texts-form">
+        Region : <input type="text" id = "reg-val" placeholder="state name"><br/>
+        Occupation : <input type="text" placeholder="your Occupation">
+    </div>
+        <script src = "Learning Javascript DOM.js"></script>
+
+    </body>
+</html>
+
+
+
+
+JS : - 
 
 var inputVal = document.querySelectorAll('.texts-form');
 
