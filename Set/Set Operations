@@ -1,0 +1,10 @@
+1 ) Check if a number is present in a Set 
+
+
+function myFunction(set, val) {
+  return set.has(val);
+}
+
+
+
+2 )
