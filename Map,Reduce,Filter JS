@@ -7,3 +7,16 @@ return val*=3;
 }));
 
 
+var arr = [1,3,53,32,2,3,4];
+
+var arr2 = [];
+
+arr.map(function(index){
+
+arr2.push(index*=3);
+
+});
+
+gs.print(arr2);
+
+
