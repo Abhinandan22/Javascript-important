@@ -35,3 +35,19 @@ return acc;
 }, []);
 
 gs.print(val);
+
+
+var officers = [
+  { id: 20, name: 'Captain Piett' },
+  { id: 24, name: 'General Veers' },
+  { id: 56, name: 'Admiral Ozzel' },
+  { id: 88, name: 'Commander Jerjerrod' }
+];
+
+gs.print(officers.map(function(val){
+
+return val.id;
+
+}));
+
+
