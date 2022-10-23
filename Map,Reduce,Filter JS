@@ -1,0 +1,9 @@
+var arr = [1,56,4,3,3,98,88];
+
+gs.print(arr.map(function(val){
+
+return val*=3;
+
+}));
+
+
