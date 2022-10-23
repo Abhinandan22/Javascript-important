@@ -20,3 +20,18 @@ arr2.push(index*=3);
 gs.print(arr2);
 
 
+var arr = [18, 21, 1, 1, 51, 18, 21, 5, 18, 7, 10];
+
+var val = arr.reduce(function(acc,val){
+
+if(acc.indexOf(val) === -1){
+
+acc.push(val);
+
+}
+
+return acc;
+
+}, []);
+
+gs.print(val);
