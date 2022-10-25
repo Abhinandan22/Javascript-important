@@ -51,3 +51,23 @@ return val.id;
 }));
 
 
+
+var officers = [
+  { id: 20, name: 'Captain Piett' },
+  { id: 24, name: 'General Veers' },
+  { id: 20, name: 'Admiral Ozzel' },
+  { id: 88, name: 'Commander Jerjerrod' }
+];
+
+var idValue = officers.filter(function(val){
+
+return val.id !== 20;
+
+});
+
+gs.print(JSON.stringify(idValue));
+
+o/p - [{"id":24,"name":"General Veers"},{"id":88,"name":"Commander Jerjerrod"}]
+
+
+
