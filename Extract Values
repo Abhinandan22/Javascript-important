@@ -1,0 +1,17 @@
+var address = [
+
+{
+"current1":"Beng",
+"not":"Mag"
+},
+
+{
+"current1":"Hyed",
+"not":"Maggi"
+
+}
+
+]
+
+for(var i in address)
+gs.print(JSON.stringify(address[i].current1));
