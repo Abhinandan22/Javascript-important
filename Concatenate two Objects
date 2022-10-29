@@ -1,0 +1,13 @@
+var concatObj = {};
+
+var obj = {"firstName":"Abhi","secondName":"Parhi"};
+
+var address = {"present":"Bhadrak","permanent":"Odisha"};
+
+for(var i in obj)
+concatObj[i] = obj[i];
+
+for(var j in address)
+concatObj[j] = address[j];
+
+gs.print(JSON.stringify(concatObj));
